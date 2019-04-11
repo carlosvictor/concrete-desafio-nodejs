@@ -1,0 +1,38 @@
+{
+  "name": "concrete-nodejs-challenge",
+  "version": "1.0.0",
+  "description": "Concrete challenge project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "pretest": "eslint *.js",
+    "test": "mocha --timeout 10000 --exit"
+  },
+  "author": "Carlos Victor Gomes",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "eslint": "^4.19.1",
+    "mocha": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlosvictor/concrete-nodejs-challenge"
+  },
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.1.6",
+    "mongoose-unique-validator": "^2.0.1",
+    "mongoose-validators": "^0.1.0",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-jwt": "^4.0.0",
+    "pre-commit": "^1.2.2"
+  }
+}
